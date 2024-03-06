@@ -2,10 +2,10 @@
 tasks:
     - init: >
           gp open README.md;
-          pip install -r "requirements.txt";
+          pip3 install --user -r requirements.txt;
       command: >
           gp open README.md;
-          pip install -r "requirements.txt";
+          pip3 install --user -r requirements.txt;
 # List the ports to expose. Learn more https://www.gitpod.io/docs/config-ports/
 ports:
     - port: 9000-9099
